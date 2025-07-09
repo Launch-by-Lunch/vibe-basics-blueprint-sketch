@@ -56,10 +56,15 @@ export const AcceleratorCard = ({
                 <li key={idx} className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 flex-shrink-0" />
                   <span dangerouslySetInnerHTML={{
-                    __html: objective.replace(
-                      'No code Glossary',
-                      '<a href="https://glossary.launchbylunch.co/glossary" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">No code Glossary</a>'
-                    )
+                    __html: objective
+                      .replace(
+                        'No code Glossary',
+                        '<a href="https://glossary.launchbylunch.co/glossary" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">No code Glossary</a>'
+                      )
+                      .replace(
+                        'local memory',
+                        '<a href="https://memory.launchbylunch.co/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">local memory</a>'
+                      )
                   }} />
                 </li>
               ))}
