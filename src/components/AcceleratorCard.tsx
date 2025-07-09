@@ -81,6 +81,10 @@ export const AcceleratorCard = ({
                         'Resend',
                         '<a href="https://resend.launchbylunch.co/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Resend</a>'
                       )
+                      .replace(
+                        'API key',
+                        '<a href="https://api-keys.launchbylunch.co/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">API key</a>'
+                      )
                   }} />
                 </li>
               ))}
