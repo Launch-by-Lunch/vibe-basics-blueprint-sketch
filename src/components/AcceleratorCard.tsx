@@ -69,6 +69,10 @@ export const AcceleratorCard = ({
                         'Supabase',
                         '<a href="https://supabase.launchbylunch.co/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Supabase</a>'
                       )
+                      .replace(
+                        'Front end vs. back end',
+                        '<a href="https://frontend.launchbylunch.co/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Front end vs. back end</a>'
+                      )
                   }} />
                 </li>
               ))}
