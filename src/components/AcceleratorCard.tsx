@@ -9,6 +9,7 @@ interface AcceleratorCardProps {
   participants: string;
   objectives: string[];
   index: number;
+  isSelected?: boolean;
 }
 
 export const AcceleratorCard = ({ 
@@ -17,10 +18,15 @@ export const AcceleratorCard = ({
   duration, 
   participants, 
   objectives, 
-  index 
+  index,
+  isSelected = false
 }: AcceleratorCardProps) => {
   return (
-    <Card className="h-full bg-card border-border hover:shadow-primary transition-all duration-300 animate-fade-in group hover:scale-105">
+    <Card className={`h-full bg-card border-border transition-all duration-300 animate-fade-in group ${
+      isSelected 
+        ? 'shadow-2xl shadow-primary/20 border-primary bg-primary/5' 
+        : 'hover:shadow-primary hover:scale-105'
+    }`}>
       <CardHeader className="relative">
         <div className="flex items-center gap-3 mb-3">
           <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center text-primary-foreground font-bold text-lg shadow-glow">

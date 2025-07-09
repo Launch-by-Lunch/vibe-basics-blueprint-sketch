@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { HeroSection } from "@/components/HeroSection";
 import { AcceleratorCard } from "@/components/AcceleratorCard";
 import { Badge } from "@/components/ui/badge";
@@ -57,6 +58,11 @@ const acceleratorClasses = [
 ];
 
 const Index = () => {
+  const [selectedCard, setSelectedCard] = useState<number | null>(null);
+
+  const handleCardClick = (index: number) => {
+    setSelectedCard(selectedCard === index ? null : index);
+  };
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -84,15 +90,27 @@ const Index = () => {
           {/* Class Cards Grid */}
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             {acceleratorClasses.map((classData, index) => (
-              <AcceleratorCard
+              <div 
                 key={index}
-                title={classData.title}
-                description={classData.description}
-                duration={classData.duration}
-                participants={classData.participants}
-                objectives={classData.objectives}
-                index={index + 1}
-              />
+                className={`transform transition-all duration-300 cursor-pointer ${
+                  selectedCard === index 
+                    ? 'scale-110 z-20 relative' 
+                    : selectedCard !== null 
+                      ? 'scale-95 opacity-70' 
+                      : 'hover:scale-105'
+                }`}
+                onClick={() => handleCardClick(index)}
+              >
+                <AcceleratorCard
+                  title={classData.title}
+                  description={classData.description}
+                  duration={classData.duration}
+                  participants={classData.participants}
+                  objectives={classData.objectives}
+                  index={index + 1}
+                  isSelected={selectedCard === index}
+                />
+              </div>
             ))}
           </div>
         </div>
