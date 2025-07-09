@@ -65,6 +65,10 @@ export const AcceleratorCard = ({
                         'local memory',
                         '<a href="https://memory.launchbylunch.co/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">local memory</a>'
                       )
+                      .replace(
+                        'Supabase',
+                        '<a href="https://supabase.launchbylunch.co/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Supabase</a>'
+                      )
                   }} />
                 </li>
               ))}
