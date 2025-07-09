@@ -22,9 +22,9 @@ export const AcceleratorCard = ({
   isSelected = false
 }: AcceleratorCardProps) => {
   return (
-    <Card className={`h-full bg-card border-border transition-all duration-500 animate-fade-in group ${
+    <Card className={`h-full bg-card border-border transition-all duration-300 animate-fade-in group ${
       isSelected 
-        ? 'border-primary border-2 bg-primary/10' 
+        ? 'shadow-2xl shadow-primary/20 border-primary bg-primary/5' 
         : 'hover:shadow-primary hover:scale-105'
     }`}>
       <CardHeader className="relative">
