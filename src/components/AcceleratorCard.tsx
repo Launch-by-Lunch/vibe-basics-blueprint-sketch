@@ -24,7 +24,7 @@ export const AcceleratorCard = ({
   return (
     <Card className={`h-full bg-card border-border transition-all duration-500 animate-fade-in group ${
       isSelected 
-        ? 'shadow-[0_0_50px_rgba(var(--primary),0.5)] border-primary border-2 bg-primary/10 ring-4 ring-primary/20' 
+        ? 'border-primary border-2 bg-primary/10' 
         : 'hover:shadow-primary hover:scale-105'
     }`}>
       <CardHeader className="relative">

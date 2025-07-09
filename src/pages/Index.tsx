@@ -94,9 +94,9 @@ const Index = () => {
                 key={index}
                 className={`transform transition-all duration-500 cursor-pointer ${
                   selectedCard === index 
-                    ? 'scale-150 z-30 relative shadow-2xl' 
+                    ? 'scale-150 z-30 relative' 
                     : selectedCard !== null 
-                      ? 'scale-90 opacity-50' 
+                      ? 'scale-90' 
                       : 'hover:scale-105'
                 }`}
                 onClick={() => handleCardClick(index)}
