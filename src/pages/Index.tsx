@@ -92,11 +92,11 @@ const Index = () => {
             {acceleratorClasses.map((classData, index) => (
               <div 
                 key={index}
-                className={`transform transition-all duration-300 cursor-pointer ${
+                className={`transform transition-all duration-500 cursor-pointer ${
                   selectedCard === index 
-                    ? 'scale-110 z-20 relative' 
+                    ? 'scale-150 z-30 relative shadow-2xl' 
                     : selectedCard !== null 
-                      ? 'scale-95 opacity-70' 
+                      ? 'scale-90 opacity-50' 
                       : 'hover:scale-105'
                 }`}
                 onClick={() => handleCardClick(index)}
