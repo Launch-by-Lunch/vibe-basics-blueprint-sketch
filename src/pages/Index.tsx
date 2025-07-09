@@ -75,7 +75,7 @@ const Index = () => {
             <h2 className="text-4xl font-bold text-foreground mb-6">
               Your Learning Journey
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Each class builds on the previous one, creating a comprehensive learning experience 
               that transforms how you approach coding. From mindset to mastery, we've got you covered.
             </p>
@@ -109,7 +109,7 @@ const Index = () => {
                   <Zap className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-semibold text-foreground mb-3">Stress-Free Learning</h4>
-                <p className="text-muted-foreground">
+                <p className="text-base text-muted-foreground">
                   No pressure, no deadlines that make you panic. Learn at a pace that feels right for you.
                 </p>
               </div>
@@ -118,7 +118,7 @@ const Index = () => {
                   <Heart className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-semibold text-foreground mb-3">Community Focus</h4>
-                <p className="text-muted-foreground">
+                <p className="text-base text-muted-foreground">
                   Join a supportive community where everyone lifts each other up and celebrates progress.
                 </p>
               </div>
@@ -127,7 +127,7 @@ const Index = () => {
                   <Trophy className="w-8 h-8 text-white" />
                 </div>
                 <h4 className="text-xl font-semibold text-foreground mb-3">Real Results</h4>
-                <p className="text-muted-foreground">
+                <p className="text-base text-muted-foreground">
                   Walk away with actual projects, new skills, and the confidence to keep growing.
                 </p>
               </div>

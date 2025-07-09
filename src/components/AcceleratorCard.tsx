@@ -33,7 +33,7 @@ export const AcceleratorCard = ({
         <CardTitle className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
           {title}
         </CardTitle>
-        <CardDescription className="text-muted-foreground leading-relaxed">
+        <CardDescription className="text-lg text-muted-foreground leading-relaxed">
           {description}
         </CardDescription>
       </CardHeader>
@@ -51,7 +51,7 @@ export const AcceleratorCard = ({
               <Target className="w-4 h-4 text-primary" />
               <h4 className="font-semibold text-foreground">Key Objectives</h4>
             </div>
-            <ul className="space-y-1 text-sm text-muted-foreground">
+            <ul className="space-y-1 text-base text-muted-foreground">
               {objectives.map((objective, idx) => (
                 <li key={idx} className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 flex-shrink-0" />
