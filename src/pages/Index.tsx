@@ -95,44 +95,6 @@ const Index = () => {
               />
             ))}
           </div>
-          
-          <Separator className="my-12" />
-          
-          {/* What Makes This Different */}
-          <div className="text-center">
-            <h3 className="text-3xl font-bold text-foreground mb-8">
-              What Makes Vibe Coding Different?
-            </h3>
-            <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              <div className="text-center p-6">
-                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 shadow-glow">
-                  <Zap className="w-8 h-8 text-white" />
-                </div>
-                <h4 className="text-xl font-semibold text-foreground mb-3">Stress-Free Learning</h4>
-                <p className="text-base text-muted-foreground">
-                  No pressure, no deadlines that make you panic. Learn at a pace that feels right for you.
-                </p>
-              </div>
-              <div className="text-center p-6">
-                <div className="w-16 h-16 bg-gradient-secondary rounded-full flex items-center justify-center mx-auto mb-4 shadow-glow">
-                  <Heart className="w-8 h-8 text-white" />
-                </div>
-                <h4 className="text-xl font-semibold text-foreground mb-3">Community Focus</h4>
-                <p className="text-base text-muted-foreground">
-                  Join a supportive community where everyone lifts each other up and celebrates progress.
-                </p>
-              </div>
-              <div className="text-center p-6">
-                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 shadow-glow">
-                  <Trophy className="w-8 h-8 text-white" />
-                </div>
-                <h4 className="text-xl font-semibold text-foreground mb-3">Real Results</h4>
-                <p className="text-base text-muted-foreground">
-                  Walk away with actual projects, new skills, and the confidence to keep growing.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </div>
