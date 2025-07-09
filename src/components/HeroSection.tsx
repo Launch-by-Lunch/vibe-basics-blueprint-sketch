@@ -35,20 +35,11 @@ export const HeroSection = () => {
           </div>
           
           {/* Description */}
-          <p className="text-xl md:text-2xl text-white/80 mb-8 leading-relaxed animate-fade-in max-w-3xl mx-auto" style={{ animationDelay: '0.4s' }}>
-            Join our 4-class accelerator to learn coding with a chill, sustainable approach. 
-            Build real projects while maintaining your zen and loving the process.
-          </p>
-          
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            <Button size="lg" className="bg-white text-primary hover:bg-white/90 font-semibold text-lg px-8 py-3 shadow-glow">
-              <Coffee className="w-5 h-5 mr-2" />
-              Start Your Journey
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary font-semibold text-lg px-8 py-3">
-              Learn More
-            </Button>
+          <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
+            <div className="flex items-center justify-center gap-2 text-lg">
+              <Coffee className="w-5 h-5 text-secondary" />
+              <span className="text-white/70">4-Class Accelerator Program</span>
+            </div>
           </div>
         </div>
       </div>
