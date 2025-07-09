@@ -6,51 +6,52 @@ import { BookOpen, Zap, Heart, Trophy } from "lucide-react";
 
 const acceleratorClasses = [
   {
-    title: "Foundations & Flow State",
-    description: "Discover the mindset and environment that makes coding feel effortless. Learn to set up your workspace for maximum comfort and productivity.",
+    title: "Early vibes",
+    description: "Introduction to vibe coding and understanding its place in the AI landscape.",
     duration: "1 hour",
     participants: "12-15 people",
     objectives: [
-      "Establish a coding mindset that reduces stress",
-      "Set up an ergonomic and inspiring workspace",
-      "Learn basic programming concepts through relaxed exploration",
-      "Practice mindful debugging techniques"
+      "What is vibe coding?",
+      "Where does vibe coding sit in the landscape of AI?",
+      "Reviewing terms: No code Glossary",
+      "Build side by side apps"
     ]
   },
   {
-    title: "Rhythm & Routine Building",
-    description: "Build sustainable coding habits that fit your lifestyle. Create routines that make consistent progress feel natural and enjoyable.",
+    title: "Let your friends try it",
+    description: "Learn the fundamentals of front-end vs back-end development and create shareable applications.",
     duration: "1 hour",
     participants: "12-15 people", 
     objectives: [
-      "Design personalized learning schedules",
-      "Master time-blocking for coding sessions",
-      "Develop project management skills with low stress",
-      "Create accountability systems that motivate"
+      "Front end vs. back end - what does it mean?",
+      "Tips for creating a specific look and feel",
+      "Adding local memory to your app",
+      "Creating Logins and user levels",
+      "Publishing externally"
     ]
   },
   {
-    title: "Creative Problem Solving",
-    description: "Turn challenges into creative opportunities. Learn to approach coding problems with curiosity rather than anxiety.",
+    title: "Adding scaleable features for public use",
+    description: "Scale your applications with databases, media, and automated communications for public deployment.",
     duration: "1 hour",
     participants: "12-15 people",
     objectives: [
-      "Develop creative thinking patterns for coding",
-      "Practice collaborative problem-solving techniques",
-      "Build resilience through guided challenges",
-      "Learn to celebrate small wins and progress"
+      "Connecting an external database (Supabase), and why it matters",
+      "Adding pictures and videos",
+      "Sending automated emails without connecting your CRM",
+      "How to find and harvest your data in Supabase"
     ]
   },
   {
-    title: "Project Zen & Delivery",
-    description: "Bring it all together by completing a real project with confidence. Learn to ship code while maintaining your inner peace.",
+    title: "Integrations and API keys for Payments and more",
+    description: "Master integrations, code management, and connecting to external services for advanced functionality.",
     duration: "1 hour",
     participants: "12-15 people",
     objectives: [
-      "Complete a full project from concept to deployment",
-      "Practice presenting your work with confidence",
-      "Build a sustainable long-term learning plan",
-      "Connect with the vibe coding community"
+      "Where's my code and how do I save it externally?",
+      "What is an API key, and why do I need it?",
+      "What are the most common integrations available in Lovable",
+      "Connecting to Stripe, Supabase, Resend, Github"
     ]
   }
 ];
