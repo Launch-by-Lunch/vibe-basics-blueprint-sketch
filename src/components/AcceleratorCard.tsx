@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Clock, Users, Target } from "lucide-react";
+import { Clock, Target } from "lucide-react";
 
 interface AcceleratorCardProps {
   title: string;
@@ -43,10 +43,6 @@ export const AcceleratorCard = ({
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-primary" />
               <span>{duration}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Users className="w-4 h-4 text-primary" />
-              <span>{participants}</span>
             </div>
           </div>
           

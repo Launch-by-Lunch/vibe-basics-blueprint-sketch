@@ -8,7 +8,7 @@ const acceleratorClasses = [
   {
     title: "Foundations & Flow State",
     description: "Discover the mindset and environment that makes coding feel effortless. Learn to set up your workspace for maximum comfort and productivity.",
-    duration: "2 hours",
+    duration: "1 hour",
     participants: "12-15 people",
     objectives: [
       "Establish a coding mindset that reduces stress",
@@ -20,7 +20,7 @@ const acceleratorClasses = [
   {
     title: "Rhythm & Routine Building",
     description: "Build sustainable coding habits that fit your lifestyle. Create routines that make consistent progress feel natural and enjoyable.",
-    duration: "2.5 hours",
+    duration: "1 hour",
     participants: "12-15 people", 
     objectives: [
       "Design personalized learning schedules",
@@ -32,7 +32,7 @@ const acceleratorClasses = [
   {
     title: "Creative Problem Solving",
     description: "Turn challenges into creative opportunities. Learn to approach coding problems with curiosity rather than anxiety.",
-    duration: "3 hours",
+    duration: "1 hour",
     participants: "12-15 people",
     objectives: [
       "Develop creative thinking patterns for coding",
@@ -44,7 +44,7 @@ const acceleratorClasses = [
   {
     title: "Project Zen & Delivery",
     description: "Bring it all together by completing a real project with confidence. Learn to ship code while maintaining your inner peace.",
-    duration: "3.5 hours", 
+    duration: "1 hour",
     participants: "12-15 people",
     objectives: [
       "Complete a full project from concept to deployment",
