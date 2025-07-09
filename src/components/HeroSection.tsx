@@ -3,7 +3,7 @@ import { Sparkles, Code, Coffee } from "lucide-react";
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-[70vh] flex items-center justify-center bg-gradient-hero overflow-hidden">
+    <section className="relative min-h-[35vh] flex items-center justify-center bg-gradient-hero overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-32 h-32 bg-white rounded-full animate-float" style={{ animationDelay: '0s' }} />
@@ -14,17 +14,17 @@ export const HeroSection = () => {
       <div className="container mx-auto px-6 text-center text-white relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Logo */}
-          <div className="mb-8 animate-fade-in">
+          <div className="mb-4 animate-fade-in">
             <img 
               src="/lovable-uploads/5a412c94-0d7c-42f6-bc21-0f27869ae42b.png" 
               alt="The Inner Circle by Launch by Lunch" 
-              className="w-48 h-48 mx-auto mb-6 animate-float shadow-glow rounded-2xl"
+              className="w-32 h-32 mx-auto mb-4 animate-float shadow-glow rounded-2xl"
             />
           </div>
           
           {/* Title */}
-          <div className="mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white via-white to-orange-200 bg-clip-text text-transparent">
+          <div className="mb-4 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <h1 className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-white via-white to-orange-200 bg-clip-text text-transparent">
               Vibe Coding Basics
             </h1>
           </div>
