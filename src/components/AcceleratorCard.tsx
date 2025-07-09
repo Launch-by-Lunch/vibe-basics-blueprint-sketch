@@ -55,7 +55,12 @@ export const AcceleratorCard = ({
               {objectives.map((objective, idx) => (
                 <li key={idx} className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 flex-shrink-0" />
-                  {objective}
+                  <span dangerouslySetInnerHTML={{
+                    __html: objective.replace(
+                      'No code Glossary',
+                      '<a href="https://glossary.launchbylunch.co/glossary" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">No code Glossary</a>'
+                    )
+                  }} />
                 </li>
               ))}
             </ul>
