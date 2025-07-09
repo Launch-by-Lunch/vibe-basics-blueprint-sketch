@@ -64,6 +64,10 @@ export const AcceleratorCard = ({
                   <span dangerouslySetInnerHTML={{
                     __html: objective
                       .replace(
+                        'landscape of AI',
+                        '<a href="https://elegant-kashata-fabc75.netlify.app/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">landscape of AI</a>'
+                      )
+                      .replace(
                         'No code Glossary',
                         '<a href="https://glossary.launchbylunch.co/glossary" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">No code Glossary</a>'
                       )
