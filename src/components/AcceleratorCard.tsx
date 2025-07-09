@@ -73,6 +73,14 @@ export const AcceleratorCard = ({
                         'Front end vs. back end',
                         '<a href="https://frontend.launchbylunch.co/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Front end vs. back end</a>'
                       )
+                      .replace(
+                        'automated emails',
+                        '<a href="https://resend.launchbylunch.co/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">automated emails</a>'
+                      )
+                      .replace(
+                        'Resend',
+                        '<a href="https://resend.launchbylunch.co/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Resend</a>'
+                      )
                   }} />
                 </li>
               ))}
