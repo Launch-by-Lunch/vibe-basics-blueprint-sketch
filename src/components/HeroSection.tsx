@@ -27,11 +27,6 @@ export const HeroSection = () => {
             <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-white via-white to-orange-200 bg-clip-text text-transparent">
               Vibe Coding Basics
             </h1>
-            <div className="flex items-center justify-center gap-2 text-xl md:text-2xl mb-6">
-              <Sparkles className="w-6 h-6 text-secondary" />
-              <span className="text-white/90">Master the Art of Relaxed Development</span>
-              <Code className="w-6 h-6 text-secondary" />
-            </div>
           </div>
           
           {/* Description */}

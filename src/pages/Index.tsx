@@ -77,7 +77,7 @@ const Index = () => {
             </h2>
             <p className="text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Each class builds on the previous one, creating a comprehensive learning experience 
-              that transforms how you approach coding. From mindset to mastery, we've got you covered.
+              that transforms how you approach coding.
             </p>
           </div>
           
