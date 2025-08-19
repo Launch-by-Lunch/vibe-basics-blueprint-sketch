@@ -69,7 +69,7 @@ export const AcceleratorCard = ({
                       )
                       .replace(
                         'No code Glossary',
-                        '<a href="https://glossary.launchbylunch.co/glossary" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">No code Glossary</a>'
+                        '<a href="https://glossary.launchbylunch.co" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">No code Glossary</a>'
                       )
                       .replace(
                         'local memory',
